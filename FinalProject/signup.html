@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./css/signup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Star jewellers</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About US</a></li>
+        <li><a href="signup.html" id="active">Sign Up</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div id="container">
+        <img src="./img/signup.jpg" alt="signup_img">
+        <div id="center">
+          <h2>Sign Up</h2>
+        </div>
+        <div id="overlay">
+          <div id="form">
+            <form>
+              <fieldset>
+                <legend>Personal Information</legend>
+                <table>
+                  <tr>
+                    <td><label for="fname">First Name: </label></td>
+                    <td><input name="fname" type="text" id="fname" required /></td>
+                  </tr>
+                  <tr>
+                    <td><label for="lname">Last Name : </label></td>
+                    <td><input name="lname" type="text" id="lname" required /></td>
+                  </tr>
+                  <tr>
+                    <td><label for="email">EmaiL : </label></td>
+                    <td><input name="email" type="email" id="email" required /></td>
+                  </tr>
+                  <tr>
+                    <td><label for="ph">Phome :</label></td>
+                    <td><input name="ph" type="tel" id="ph"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="pass">Choose Password :</label></td>
+                    <td>
+                      <input name="pass" type="password" id="pass" required /><br />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <input type="submit" name="submit" value="submit" />
+                    </td>
+                  </tr>
+                </table>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy;COMP1002,Star Jewellers.All Rights are reserved.</p>
+    </footer>
+  </body>
+</html>

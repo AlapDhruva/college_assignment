@@ -1,0 +1,134 @@
+body
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header
+{
+    background-color:#00091a;
+    height: 90px;
+    color: #e6ac00;
+    position: relative;
+    font-family: 'Lobster', cursive;
+}
+
+h1
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav
+{
+  
+    background-color: #e6ac00;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e6ac00;
+  }
+  
+  li {
+    float: left;
+   
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color: white;
+  }
+
+  #active
+  {
+    background-color: #111;
+    color: #e6ac00;
+
+  }
+
+main
+{
+  position: relative;
+  overflow: scroll;
+  height: 900px;
+  background-color: black;
+}
+
+section
+  {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  section img
+  {
+    width: 100%;
+    height: 350px;
+  }
+
+  .product
+  {
+   
+    height: 450px;
+    background-color: black;
+    width: 30%;
+    margin: 10px;
+  }
+
+  section p{
+    text-align: center;
+    color: #e6ac00;
+  }
+
+  input[type=button]
+  {
+    width: 100%;
+    background-color: goldenrod;
+    border: #e6ac00;
+    height: 30px;
+  }
+
+section div:hover
+{
+  border: 1px solid lightblue;
+}
+
+
+
+  footer
+  {
+    background-color:#00091a;
+    height: 90px;
+    color: #e6ac00;
+    position: relative;
+    font-family: 'Lobster', cursive;
+  }
+
+  footer p{
+
+    padding: 0;
+    margin-top: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

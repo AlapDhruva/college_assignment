@@ -1,0 +1,46 @@
+body
+{
+    margin: 0;
+    background-color: black;
+}
+header
+{
+    background-color: lightsalmon;
+    color: black;
+    height: 90px;
+    padding: 5px;
+    text-align: center;
+}
+
+main
+{
+    background-color: black;
+    height: auto;
+}
+section
+{
+    
+    margin-bottom: 5px;
+    margin-top: 3px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+}
+h2
+{
+    text-align: center;
+}
+
+
+
+
+
+footer
+{
+    background-color: lightsalmon;
+    color: black;
+    height: 90px;
+    text-align: center;
+    padding: 5px;
+}
+

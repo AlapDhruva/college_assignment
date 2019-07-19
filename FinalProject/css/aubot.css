@@ -1,0 +1,111 @@
+body
+{
+    background-color: black;
+    margin: 0;
+}
+
+header
+{
+    background-color:#00091a;
+    height: 90px;
+    color: #e6ac00;
+    position: relative;
+    font-family: 'Lobster', cursive;
+}
+
+h1
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav
+{
+
+    background-color: #e6ac00;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e6ac00;
+  }
+
+  li {
+    float: left;
+
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color: white;
+  }
+
+  #active
+  {
+    background-color: #111;
+    color: white;
+
+  }
+
+
+
+  main {
+    position: relative;
+    height: 600px;
+    background-color: black;
+    text-align: center;
+    color: #e6ac00;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+
+  #description
+  {
+    
+    margin-bottom: 15px;
+  }
+
+
+  footer
+  {
+    background-color:#00091a;
+    height: 90px;
+    color: #e6ac00;
+    position: relative;
+    font-family: 'Lobster', cursive;
+  }
+div p.ip4{
+
+  text-align: center;
+  }
+
+  footer p{
+
+    padding: 0;
+    margin-top: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

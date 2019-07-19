@@ -1,0 +1,122 @@
+/* Css for body element*/
+body 
+{
+    /* font style*/
+    font-family: Arial, Helvetica, sans-serif; 
+    /* font size */
+    font-size: 100%;
+    /* set line height of body*/
+    line-height: 1.4;
+    /* set text color */
+    color: #1c1c1c; 
+    /*set background color of the body*/
+    background-color: #c9ddff;
+    /* set margin*/
+    margin : 20px 20%;
+}
+
+header
+{
+    /* Background color of header */
+    background-color: #21365b;
+    /* color of text*/
+    color: black; 
+    /* apply padding*/
+    padding: 20px;
+    /* set text align to center*/
+    text-align: center;
+    /* set background image*/
+    background-image: url("../img/boat.jpg");
+    /* will display full image with repeat-X*/
+    background-repeat: round;
+}
+
+header span
+{
+    /* apply italic for span element*/
+    font-style: italic;
+}
+
+#recipe-description
+{
+    /* specify border*/
+    border: 5px dotted white; 
+    /* apply padding*/
+    padding: 20px; 
+    /*Apply margin*/
+    margin: 20px auto; 
+    /* set width*/
+    width: 80%; 
+    /* set max width*/
+    max-width: 750px;
+}
+
+main img
+{
+    /* set image to left*/
+    float:left; 
+    /* apply margin from right*/
+    margin-right: 10px; 
+    /* set height*/
+    height: 200px;
+}
+
+.recipe-details
+{
+    /* set background color*/
+    background-color: white;
+    /* apply padding*/ 
+    padding: 20px; 
+    /* set font size*/
+    font-size: .8em;
+    /* apply border to the class*/
+    border: 5px solid black;
+}
+
+#recipe-ingredients, #recipe-directions
+{
+    /* apply padding from left*/
+    padding-left: 20px;
+}
+
+h2
+{
+    /* set underline to H2*/
+    text-decoration: underline;
+}
+
+footer
+{
+    /* set text to the center*/
+    text-align: center;
+    /* set background color*/
+    background-color: black;
+    /* set text color*/
+    color: white;
+}
+
+a
+{
+    /*remove underline from link*/
+    text-decoration: none;
+    /* set color*/
+    color: orange;
+}
+
+a:hover
+{
+    /* set color if you hover your mouse to the element*/
+    color: #21365b;
+}
+
+a:active
+{
+    /* set color to red if link is active*/
+    color: red;
+}
+
+a:visited
+{
+    /* set color if link is visited*/
+    color: aqua;
+}

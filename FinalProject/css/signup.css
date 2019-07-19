@@ -1,0 +1,148 @@
+body
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header
+{
+    background-color:#00091a;
+    height: 90px;
+    color: #e6ac00;
+    position: relative;
+    font-family: 'Lobster', cursive;
+}
+
+h1
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav
+{
+  
+    background-color: #e6ac00;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e6ac00;
+  }
+  
+  li {
+    float: left;
+   
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color: white;
+  }
+
+  #active
+  {
+    background-color: #111;
+    color: #e6ac00;
+
+  }
+
+  main img
+  {
+      width: 100%;
+      height: 600px;
+      opacity: 0.5;
+  }
+
+
+
+  #container
+  {
+      position: relative;
+  }
+
+  #center
+  {
+      position: Absolute;
+      top: 50%;
+      left: 50%;
+      font-family: 'Lobster', cursive;
+      transform: translate(-50%,-50%);
+      font-size: 18px;
+      color: #e6ac00;
+  }
+
+
+  #overlay
+  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: gray;
+  }
+  #form
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Lobster', cursive;
+    transform: translate(-50%,-50%);
+    color: #e6ac00;
+  }
+
+  #container:hover #overlay
+  {
+    opacity: 0.8;
+  }
+
+  fieldset
+  {
+    border-color: #e6ac00;
+  }
+
+  input[type=submit]
+  {
+    background-color: #e6ac00;
+    border-color: #e6ac00;
+    width:100%;
+  }
+  footer
+  {
+    background-color:#00091a;
+    height: 90px;
+    color: #e6ac00;
+    position: relative;
+    font-family: 'Lobster', cursive;
+  }
+
+  footer p{
+
+    padding: 0;
+    margin-top: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
